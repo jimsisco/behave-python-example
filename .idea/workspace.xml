@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5782d32-6ce4-4d18-8d2c-f82cb28ac5aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/behave_python_example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/behave_python_example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/centersearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/centersearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/centersearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/centersearch.py" afterDir="false" />
-    </list>
+    <list default="true" id="a5782d32-6ce4-4d18-8d2c-f82cb28ac5aa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

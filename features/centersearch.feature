@@ -8,4 +8,4 @@ Feature: Center Search
       Then i enter my zip code
       Then and click Search Again
       Then i can see the center and click Tuition and Openings
-      Then i can see "Powell KinderCare"
+      Then i can see "Center Search Results | KinderCare"

@@ -2,7 +2,7 @@ from behave import *
 
 
 @given('i have internet connectivity')
-def step(context):
+def step():
     pass
 
 
@@ -14,12 +14,12 @@ def step(context):
 @then('it should have a title "KinderCare | Child Daycare Centers & Early Education Programs"')
 def step(context):
     assert context.browser.title == "KinderCare | Child Daycare Centers & Early Education Programs"
+    context.browser.find_element_by_xpath("/html/body/div[2]/div[1]/div[2]/button").click()
 
 
 @then('I click Find Your Center')
 def step(context):
-    # click submit button
-    submit_button = context.browser.find_elements_by_xpath('//*[@id="homePage"]/div/div/div[2]/a')[0].click()
+    context.browser.find_elements_by_xpath('//*[@id="homePage"]/div/div/div[2]/a')[0].click()
 
 
 @then('it should have taken me to "Center Search Results | KinderCare"')
@@ -44,8 +44,8 @@ def step(context):
     context.browser.find_element_by_xpath('//li[@id=\'300902\']/div/div[2]/a').click()
 
 
-@then('i can see "Powell KinderCare"')
+@then('i can see "Center Search Results | KinderCare"')
 def step(context):
-    # result = driver.find_element_by_xpath('//li[@id=\'300902\']/div/a/h2')
-    assert context.browser.title == "Center Search Results | KinderCare"
+    result = context.browser.title
+    assert result == "Center Search Results | KinderCare"
 
